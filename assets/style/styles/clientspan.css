@@ -1,0 +1,30 @@
+.client-span {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 90%;
+    z-index: 10;
+    background-color: rgb(29, 214, 29);
+    margin: 0.8rem;
+    border-radius: 2rem;
+    opacity: 0.7;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.client-span:hover {
+    opacity: 1;
+}
+
+.span-descrip {
+    padding: 2rem;
+    color: var(--white);
+}
+
+.span-name {
+    font-weight: 700;
+    color: green;
+}

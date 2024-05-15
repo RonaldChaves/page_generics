@@ -1,0 +1,174 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    margin-bottom: 4rem;
+}
+
+.main-text {
+    margin-top: 1rem;
+    padding: 3rem;
+    font-weight: 700;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.main-parag {
+    width: 67%;
+    padding: 1rem 5rem 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.video-container {
+    max-width: 95%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    border-radius: 2rem;
+    border: 3px solid var(--primary-color);
+}
+
+.time-viwer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-circle {
+    padding-bottom: 0.5rem;
+    color: red;
+}
+
+.timer-view {
+    font-size: 3rem;
+    padding: 1rem 1rem;
+    color: red;
+}
+
+#disable {
+    display: none;
+}
+
+.redirect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.3rem 0 10rem;
+    gap: 1.6rem;
+    max-width: 100%;
+}
+
+.btn-main,
+.btn-main:not(:hover) {
+    transition: 0.7s;
+    font-size: 4.2rem;
+    padding: 2rem 5.6rem 2rem;
+    border: none;
+    border-radius: 5rem;
+    color: var(--primary-color);
+    background-color: var(--second-color);
+}
+
+.btn-main:hover {
+    transition: 0.7s;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.cards-accepts {
+    display: flex;
+    flex-basis: content;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-security {
+    display: flex;
+    flex-direction: row;
+    max-width: 10rem;
+    gap: 1.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-security span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
+    font-size: 2rem;
+    color: bisque;
+}
+
+.buy-security span i {
+    width: 100%;
+    font-size: 5rem;
+    padding: 1.7rem;
+    color: bisque;
+    align-self: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-text {
+        font-size: 4rem;
+    }
+
+    .main-parag {
+        padding: 1rem 4rem 3rem;
+        font-size: 2rem;
+    }
+
+    .timer-view {
+        font-size: 2rem;
+    }
+
+    .btn-main,
+    .btn-main:not(:hover) {
+        font-size: 2rem;
+        padding: 1rem 4.8rem 1rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .main-text {
+        font-size: 2.2rem;
+    }
+
+    .main-parag {
+        padding: 1rem 2rem 1rem;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .timer-view {
+        font-size: 2rem;
+    }
+
+    .btn-main,
+    .btn-main:not(:hover) {
+        font-size: 2.4rem;
+        padding: 1.4rem 4.8rem 1.4rem;
+    }
+
+    .buy-security span {
+        font-size: 1.4rem;
+    }
+
+    .buy-security span i {
+        font-size: 3rem;
+    }
+}

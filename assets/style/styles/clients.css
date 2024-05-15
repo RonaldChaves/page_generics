@@ -1,0 +1,149 @@
+.results-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+}
+
+.result-title {
+    margin-top: 1rem;
+    padding: 3rem;
+    font-weight: 900;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--bg-color);
+}
+
+.result-card {
+    max-width: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    margin: 2rem 1.4rem 2rem;
+    border: 1px solid #000;
+    border-radius: 2rem;
+    margin-bottom: 4.2rem;
+    padding: 1.5rem;
+}
+
+.result-video {
+    width: 100%;
+    border-radius: 2.6rem;
+    padding: 1rem;
+}
+
+.result-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 0;
+}
+
+.client-name {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 3.6rem;
+}
+
+.client-details {
+    text-align: justify;
+    font-size: 1.8rem;
+    margin-top: 0.8rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .articles {
+        max-width: 100%;
+    }
+
+    .articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .result-card {
+        max-width: 100%;
+        width: 80%;
+    }
+
+    .client-details {
+        font-size: 2.8rem;
+        margin-top: 1rem;
+    }
+
+    .client-name {
+        color: var(--white);
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+    .result-title {
+        font-size: 3.4rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .result-card {
+        max-width: 100%;
+        width: 80%;
+    }
+
+    .client-details {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    .client-name {
+        color: var(--white);
+        font-weight: 700;
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .articles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .result-card {
+        max-width: 100%;
+        width: 80%;
+    }
+
+    .client-name {
+        font-size: 2rem;
+    }
+
+    .client-details {
+        font-size: 1.8rem;
+    }
+}
